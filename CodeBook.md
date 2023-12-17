@@ -25,15 +25,6 @@ Executing the work is as follows:
 - Change the activity values in preparation for the tidy data set.
 - Use 'group_by' and 'summarise_all' with mean to create the tidy data set of the average of each variable for each activity and subject .
 
-# The variables changed from the original data set are as follows:
-•	"t" = "Time"
-•	"f" = "Frequency"
-•	"Acc" = "Accelerometer"
-•	"Gyro" = "Gyroscope"
-•	"Mag" = "Magnitude"
-•	"BodyBody" = "Body"
-•	"()" = ""
-
 # Note
 -  The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
 - The gyroscope units are rad/seg.
