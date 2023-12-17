@@ -102,3 +102,6 @@ dataAvg <- data_final %>%
   summarize(count = n(),
             avg_value = mean(Value)
   )
+
+write.table(dataAvg,file="tidydata.txt",row.name=FALSE)
+
